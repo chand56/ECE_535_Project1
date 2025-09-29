@@ -7,7 +7,9 @@ Precise time is critical for safe and reliable control systems. Our project uses
 ## Design Goals and Deliverables
 
 • Develop PTP time sync protocol. Test kernel attacks on PTP. Implement TEE mechanisms to make it secure.
+
 • Characterize the network delay between raspberry pi and the edge device  
+
 • Estimate the relative clock drift between the participating devices
 
 ## System Blocks
