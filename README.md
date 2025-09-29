@@ -21,8 +21,8 @@ Windows PC, NXP i.MX6Q SabreSD development board (ARM Cortex-A9 cores), OP-TEE
 
 ## Team Member Responsibilities
 
-Chandler - Networking, Writing includes data collection, attack simulation  
-Tre - Setup, software, PTP implementation, delay measurements  
+Chandler Cheron - Networking, Writing includes data collection, attack simulation  
+Tre Allen-Robinson - Setup, software, PTP implementation, delay measurements  
 Aaron - Research, Algorithm design, TEE integration
 
 ## Project Timeline
