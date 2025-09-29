@@ -1,2 +1,2 @@
-# ECE_535_-PRoject1
+# ECE_535_Project1
 Smart Doorbell
