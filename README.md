@@ -1,36 +1,36 @@
 # ECE_535_Project1
-# Secure PTP Time Synchronization with OP-TEE
+# Security Analysis of Gaze Estimation in Mixed Reality
 
 ## Motivation
-Precise time is critical for safe and reliable control systems. Our project uses ARM Trustzone (OP-TEE) to isolate key vulnerable PTP functions securing trustworthy time giving us a chance to detect spoofing/delay attacks. This protocol also provides us with integrity when it comes to protected timestamps and inputs.
+Head-mounted mixed-reality devices can render and overlay realistic 3D content onto the physical environment, enabling a wealth of interactive possibilities. These technologies are also used to track human pose. Gaze estimation models are important to track human gaze and improve the performance by overlaying virtual content precisely w.r.t physical world. These devices are equipped with a rich set of sensors that collect personal and sensitive information (e.g., body motion, eye gaze, hand joints, and facial expression), which is used to train gaze estimation models. Unfortunately most pre-trained models can be injected with backdoors that compromise the accuracy of these models and integrity of the entire system
 
 ## Design Goals and Deliverables
 
-• Develop PTP time sync protocol. Test kernel attacks on PTP. Implement TEE mechanisms to make it secure.
+• Find Gaze Estimation Data sets and Models
 
-• Characterize the network delay between raspberry pi and the edge device  
+• Find Gaze Estimation Backdoors and remove them
 
-• Estimate the relative clock drift between the participating devices
+• Perform security analysis on the data based on existing literature
 
 ## System Blocks
 
-PTP messages arrive → Linux validates through OP-TEE and requests timestamp → servo computes offset using trusted inputs → decision logged → OP-TEE tags selected PTP frames
+TBT
 
 ## Hardware/Software Requirements
 
-Windows PC, NXP i.MX6Q SabreSD development board (ARM Cortex-A9 cores), OP-TEE
+Python, Unity
 
 ## Team Member Responsibilities
 
-Chandler Cheron - Networking, Writing includes data collection, attack simulation  
-Tre Allen-Robinson - Setup, software, PTP implementation, delay measurements  
-Aaron - Research, Algorithm design, TEE integration
+Chandler Cheron - Backdoor Removal 
+Tre Allen-Robinson - Research, literature analysis, software setup 
+Aaron - Security analysis
 
 ## Project Timeline
 
-Week 1-2: Research/Project presentation  
-Week 3-4: PTP algorithm development, TEE integration  
-Week 5-6: Delay and Attack testing  
+Week 1-2: Research 
+Week 3-4: Setup software and Backdoor removal 
+Week 5-6: Security Analysis  
 Week 7-8: Writing Paper
 
 ## References
