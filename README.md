@@ -35,6 +35,5 @@ Week 7-8: Writing Paper
 
 ## References
 
-Trusted Timing Services with Timeguard, RTAS 2024  
-Securing Time in Untrusted Operating Systems with TimeSeal, RTSS 2019
+SecureGaze: Defending Gaze Estimation Against Backdoor Attacks, SenSys 2025
 
