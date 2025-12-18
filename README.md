@@ -36,5 +36,7 @@ Week 7-8: Writing Paper
 ## References
 
 SecureGaze: Defending Gaze Estimation Against Backdoor Attacks, SenSys 2025
-See https://github.com/hysts/pytorch_mpiigaze
+
+See https://github.com/hysts/pytorch_mpiigaze and https://github.com/hysts/pytorch_mpiigaze_demo for the software and demo
+
 
